@@ -1,0 +1,6 @@
+# 컨테이너 실행용. 값은 docker-compose.yml에서 .env 기준으로 주입한다 (기본값 없음).
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
