@@ -1,0 +1,28 @@
+# VCS
+.git/
+.gitignore
+.gitattributes
+
+# Gradle 빌드 산출물 (컨테이너 안에서 다시 빌드)
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+out/
+bin/
+
+# 비밀값
+.env
+.env.*
+
+# 문서 / 기타
+*.md
+logs/
+*.log
+docker-compose*.yml
